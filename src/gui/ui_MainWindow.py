@@ -524,6 +524,13 @@ class Ui_MainWindow(object):
         self.stackedWidget.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.stackedWidget.setFrameShadow(QtWidgets.QFrame.Plain)
         self.stackedWidget.setObjectName("stackedWidget")
+        self.stackedWidget.setStyleSheet(
+            """
+            QStackedWidget#stackedWidget {
+                background-color: #09090B;
+            }
+            """
+        )
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")
         self.stackedWidget.addWidget(self.page)
