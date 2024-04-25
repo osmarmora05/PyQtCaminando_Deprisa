@@ -55,7 +55,7 @@ Para comenzar con "PyQtCaminando_Deprisa", siga estos sencillos pasos de instala
 
    - Unix/Linux:
      ```sh
-     source ./venv/bin/activate
+     source venv/bin/activate
      ```
 
 5. **Instalar dependencias requeridas:**

@@ -54,7 +54,7 @@ To get started with "PyQtCaminando_Deprisa", follow these simple installation st
 
    - Unix/Linux:
      ```sh
-     source ./venv/bin/activate
+     source venv/bin/activate
      ```
 
 5. **Install Required Dependencies:**
